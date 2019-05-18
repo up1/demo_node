@@ -6,7 +6,7 @@ const auth = require('./controller/auth');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.get("/", function (req, res) {
-    res.send("<h1>Workshop Jenkins Node.js</h1>");
+    res.send("<h1>Workshop Jenkins Node.jsx</h1>");
 });
 
 app.get("/auth", auth.auth);

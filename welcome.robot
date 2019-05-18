@@ -13,7 +13,7 @@ Home page
 แสดงผลข้อมูลอย่างถูกต้อง
     Wait Until Element Contains
     ...   xpath:/html/body/h1
-    ...   Workshop Jenkins Node.jsxccc
+    ...   Workshop Jenkins Node.jsx
 
 ไปยังหน้าแรก
     Open Browser  ${BASE_URL}
